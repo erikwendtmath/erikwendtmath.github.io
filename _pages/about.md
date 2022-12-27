@@ -19,5 +19,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-**Erik, you need to flesh out this section a little more. The file you need to change
-is _pages/about.md**. Hi, I'm Erik! I'm a PhD candidate in Mathematics at the [University of Connecticut.](https://math.uconn.edu/) My main research interests are in measurable dynamical systems, with a specific focus on rigorous dimension estimates. Outside of research, I am the current president of the graduate student chapter of [SIAM](https://siam.math.uconn.edu/) at UConn.
+Hi, I'm Erik! I'm a PhD candidate in Mathematics at the [University of Connecticut.](https://math.uconn.edu/) My main research interests are in measurable dynamical systems, with a specific focus on rigorous dimension estimates. Outside of research, I am the current president of the graduate student chapter of [SIAM](https://siam.math.uconn.edu/) at UConn.
