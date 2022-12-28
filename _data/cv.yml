@@ -25,7 +25,7 @@
   type: time_table
   contents:
     - title: PhD
-      institution: <a href="math.uconn.edu">University of Connecticut, Storrs, CT</a>
+      institution: <a href="https://math.uconn.edu">University of Connecticut, Storrs, CT</a>
       year: 2019 - Present
       description:
         - "Advisors: <a href=https://www2.math.uconn.edu/~chousionis/>Vasilis Chousionis</a>, <a href=https://www2.math.uconn.edu/~leykekhman/>Dmitriy Leykekhman</a>"
