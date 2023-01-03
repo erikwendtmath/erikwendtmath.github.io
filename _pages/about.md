@@ -13,6 +13,7 @@ profile:
     <p>422 MONT</p>
     <p>341 Mansfield Road</p>
     <p>Storrs, CT 06269</p>
+    <p>erik.wendt@uconn.edu</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

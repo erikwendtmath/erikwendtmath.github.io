@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I am currently teaching Precalc.
+description: For the Spring 2023 semester I will be teaching MATH 1060Q.
 nav: true
 nav_order: 5
 ---
 
-Work in progress!
+This page is a work in progress.
 
 [//]:<For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.>
 
