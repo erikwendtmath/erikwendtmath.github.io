@@ -7,10 +7,10 @@ subtitle: Graduate math student with a flair for numerical analysis,
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>422 MONT</p>
+    <p>126 MONT</p>
     <p>341 Mansfield Road</p>
     <p>Storrs, CT 06269</p>
     <p>erik.wendt@uconn.edu</p>
