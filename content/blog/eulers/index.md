@@ -92,7 +92,7 @@ The maximum change in angle is around 0.2 radians — small, but significant eno
 
 These questions connect to broader areas of numerical analysis and dynamical systems. I might expand on them in a future post. Until then, enjoy the vector field visualizer!  
 
-👉 The GitHub repository is [here](https://github.com/erikwendtmath/Computational_Programs).
+The GitHub repository is [here](https://github.com/erikwendtmath/Computational_Programs).
 
 <!-- [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 
