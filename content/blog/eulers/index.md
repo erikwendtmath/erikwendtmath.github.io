@@ -84,7 +84,7 @@ The maximum change in angle is around 0.2 radians — small, but significant eno
 
 ---
 
-## Open Questions
+## Further Questions
 
 - How can we improve upon Euler's method?  
 - How should one deal with an unstable system?  

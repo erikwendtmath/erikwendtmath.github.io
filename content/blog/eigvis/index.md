@@ -4,12 +4,11 @@ author: "Erik Wendt"
 date: 2025-10-10
 tags: ["linear algebra", "numerical analysis", "visualization", "random matrix theory", "teaching"]
 description: "An interactive eigenvalue visualizer to explore matrix perturbations and random matrix spectra."
+type: docs
 math: true
 image:
     caption: 'An example of the eigenvalue visualizer.'
 ---
-
-# Visualizing Eigenvalues
 
 This blog post covers an eigenvalue visualizer I created to teach linear algebra.  
 The goal of the visualizer is to give an interactive program that shows variations in eigenvalues based on matrix perturbations.  
