@@ -13,7 +13,7 @@ image:
 *This post is aimed at undergraduate students in mathematics, computer science, or physics. Since Barnes–Hut simulation uses ideas from all three 
 of these fields, I hope that this illustrates the close connections between all three disciplines.*
 
-In preparation for a (near) future blog post, I stumbled upon the idea of **Barnes–Hut simulation**. This simulation technique approximates the solution of an **n-body problem** with \(O(n \log n)\) complexity, where the naïve brute-force method is \(O(n^2)\). This post is concerned with the theoretical and computational aspects of approximating n-body problems through the lens of Newtonian gravity, providing the basis for simple gravitational simulations.
+In preparation for a (near) future blog post, I stumbled upon the idea of **Barnes–Hut simulation**. This simulation technique approximates the solution of an **n-body problem** with \(\mathcal{O}(n \log n)\) complexity, where the naïve brute-force method is \(\mathcal{O}(n^2)\). This post is concerned with the theoretical and computational aspects of approximating n-body problems through the lens of Newtonian gravity, providing the basis for simple gravitational simulations.
 
 Here is a brief outline of the post. We start by discussing the formulation of n-body problems, briefly establishing connections with Hamiltonian mechanics. Then we discuss Størmer–Verlet methods, which provide a basis for approximating solutions of n-body problems. This motivates **quadtrees**, an efficient data structure to decompose space, which allows efficient approximations of the acceleration matrix. Afterwards we set up the Barnes–Hut algorithm, and finish with a few example implementations.
 
@@ -134,7 +134,7 @@ We use a generic example to show how quadtrees are constructed. Start with the t
 |:--:|:--:|
 | **(a)** Root of the quadtree with a point. | **(b)** Second iteration of the quadtree after adding another point. |
 
-This process repeats itself. Going through the list of points, a point is retained in a **leaf node** as long as it is the only point in the leaf node. If another point is added the node splits into four others, and the process repeats until all points are contained in separate lead nodes of the quadtree. Importantly, adding a point may not create a new division. As seen below in **(C)**, adding $x_3$ to the quadtree does not increase the node count, as $x_3$ is contained in a preexisting leaf with no other point. Since $x_4$ is not, another node in the quadtree divides, as seen in below in **(d)**. The full quadtree for this set of points is here at the top of this section.
+This process repeats itself. Going through the list of points, a point is retained in a **leaf node** as long as it is the only point in the leaf node. If another point is added the node splits into four others, and the process repeats until all points are contained in separate lead nodes of the quadtree. Importantly, adding a point may not create a new division. As seen below in **(c)**, adding $x_3$ to the quadtree does not increase the node count, as $x_3$ is contained in a preexisting leaf with no other point. Since $x_4$ is not, another node in the quadtree divides, as seen in below in **(d)**. The full quadtree for this set of points is here at the top of this section.
 
 |![Third iteration of a quadtree.](quadtree3.png) |![Fourth iteration of a quadtree](quadtree4.png)|
 |:--:|:--:|
